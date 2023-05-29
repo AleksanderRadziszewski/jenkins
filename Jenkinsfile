@@ -10,25 +10,25 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building.."
+                echo "Building..."
                 sh '''
-                echo "doing build stuff.."
+                echo "doing build stuff..."
                 '''
             }
         }
         stage('Test') {
             steps {
-                echo "Testing.."
+                echo "Testing..."
                 sh '''
-                echo "doing test stuff..
+                echo "doing test stuff..."
                 '''
             }
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver....'
+                echo "Deliver..."
                 sh '''
-                echo "doing delivery stuff.."
+                echo "doing delivery stuff..."
                 '''
             }
         }
